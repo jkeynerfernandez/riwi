@@ -1,0 +1,23 @@
+nav{
+    background-color: aqua;
+}
+.col-md-3
+{
+    padding: 10px;
+   
+}
+
+.description{
+    width: 231px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+.producto{
+    text-align: left;
+    
+    width: 231px;
+   
+   
+    font-size: small;
+}

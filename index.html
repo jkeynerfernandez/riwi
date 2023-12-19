@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="app.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <img src="./images/favicon.ico" width="200px" alt="">
+        <nav> 
+            <select name="" id="idioma">
+                <option value="english">inglès</option>
+                <option value="spanish">españos</option>
+            </select>
+            <select name="noche" id="theme">
+                <option value="noche">Noche</option>
+                <option value="dia">Dià</option>
+               
+            </select>
+        </nav>
     </header>
+    
+
     <div class="container">
     <div class="row">
         <div class="col-md-3">
             <div class="card">
                 <img src="images/hamburguesa-1.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>MACABRO</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+                    
+                    <p class="precio">$<span class="valor">8900</span></p>
+                    <h2 class="producto">BBQ Crunch</h2>
+                    <div>
+                        <p class="description">1 Sàndwich BBQ Crunch (1Filete de pollo apanado)</p>
+                    </div>    
 
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
@@ -28,30 +46,41 @@
             <div class="card">
                 <img src="images/hamburguesa-2.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>CUTE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+
+                    <p class="precio">$<span class="valor">15900</span></p>
+                    <h2 class="producto">KentucKy Sandwich</h2>
+                    <div>
+                        <p class="description">1 Kentucky hamburguesa 7Sandwich (1 Filete de pechuga de pollo apanado )</p>
+                    </div>
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-3.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>NATURE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+
+                    <p class="precio">$<span class="valor">15900</span></p>
+                    <h2 class="producto">Combo BBQ Crunch</h2>
+                    <p class="description">1 Combo BBQ Crunch (1 Filete de pollo apanado) + 1Papa + 1 Gaseosa PET...</p>
+
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-4.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>NATURE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+                    <p class="precio">$<span class="valor">16900</span></p>
+                    <h2 class="producto">KentucKy Coronel Sandwich</h2>
+                    <p class="description">KentucKy Coronel hamburguesa /Sandwich (1 Filete de pechuga de pollo apanado, ensalada...)</p>
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
@@ -59,43 +88,59 @@
     <div class="row">
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2018/03/18/15/26/villa-3237114_640.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-5.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>MACABRO</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+
+                    <p class="precio">$<span class="valor">21900</span></p>
+                    <h2 class="producto"> Combo KentucKy  Sandwich</h2>
+                    <p class="description">KentucKy Coronel hamburguesa /Sandwich (1 Filete de pechuga de pollo apanado, pepinillos...)</p>
 
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939_640.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-6.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>CUTE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+                   
+                    <p class="precio">$<span class="valor">16900</span></p>
+                    <h2 class="producto">Combo KentucKy Coronel Sandwich</h2>
+                    <p class="description">KentucKy Coronel hamburguesa /Sandwich (1 Filete de pechuga de pollo apanado, ensalada...)</p>
+                   
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-7.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>NATURE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+                  
+                    <p class="precio">$<span class="valor">23900</span></p>
+                    <h2 class="producto">Sandwich Crispy BBQ</h2>
+                    <p class="description">Sandwich Crispy BBQ(1 Filete de pechuga extra grande, triple empanizado, cebolla crisp...)</p>
+
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
         <div class="col-md-3">
             <div class="card">
-                <img src="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg" width="100%" alt="">
+                <img src="images/hamburguesa-8.webp" width="100%" alt="">
                 <div class="card-body">
-                    <h2>NATURE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente?</p>
+
+                    <p class="precio">$<span class="valor">23900</span></p>
+                    <h2 class="producto">Combo Sandwich Crispy BBQ</h2>
+                    <p class="description">Sandwich Crispy BBQ(1 Filete de pechuga extra grande, triple empanizado, cebolla crisp...)</p>
+
+
                 </div>
+                <button type="button" class="btn btn-primary">Comprar</button>
 
             </div>
         </div>
